@@ -1,0 +1,84 @@
+/* navbar start */
+#nav-bar .nav-left #personl-infor {
+  background-image: linear-gradient(#9C9C9C00,#C4C4C4);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+
+
+/* navbar end */
+
+#body {
+  width: 100%;
+  margin-top: 20px;
+  height: 100px;
+}
+
+#profile_pic {
+  position: relative;
+  top: 26px;
+  left: 147px;
+  width: 259px;
+  aspect-ratio : 1 / 1;
+  background-image: url(../images/profile_pic.png);
+  background-size: cover;
+}
+
+#infor {
+  position: relative;
+  top: -180px;
+  left: 463px;
+  width: 478px;
+}
+
+#name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: 500;
+  word-spacing: 10px;
+}
+
+#infor p:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+#infor p:not(:nth-child(1)) {
+  display: block;
+  font-size: 28px;
+  line-height: 65px;
+}
+
+#infor p[class='arrtribute']:nth-child(odd) {
+  position: relative;
+  left: 51%;
+}
+
+#location {
+  width: 358px;
+  height: 450px;
+  position: relative;
+  top: -565px;
+  left: 1101px;
+  text-align: center;
+}
+
+#location .hometown_map {
+  width: 358px;
+  height: 450px;
+}
+
+#hometown {
+  position: relative;
+  top: -13px;
+  left: 0;
+  font-size: 30px;
+}
+
+#hometown::before {
+  font-family: 'icomoon';
+  content: "\e947";
+  color: #555555;
+  font-size: 39px;
+}
+
